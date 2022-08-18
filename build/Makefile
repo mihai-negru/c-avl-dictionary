@@ -20,7 +20,7 @@ build: $(FILES)
 	@gcc $(CFLAGS) $(FILES)
 
 clean:
-	@rm -rf avl_dict_run.o avl_dict_run outputs
+	@rm -rf avl_dict_run.o avl_dict_run
 
 clean_all:
 	@rm -rf *.o avl_dict_run outputs

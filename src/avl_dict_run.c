@@ -89,9 +89,9 @@ void print_dot(dict_node_t *root, FILE *fout, uint8_t type) {
 		fprintf(fout, "    node [fontname=\"Arial\", shape=circle, style=filled, fillcolor=yellow];\n");
 	}
 
-	if (root != NULL) {
+	if (root == NULL) {
 		fprintf(fout, "\n");
-	} else if ((root->right != NULL) && (root->left != NULL)) {
+	} else if (!root->right && !root->left) {
 		if (type == 1) {
 			fprintf(fout, "    %d;\n", *((int32_t *)root->key));
 		} else {
