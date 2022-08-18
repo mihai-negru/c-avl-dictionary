@@ -1,0 +1,11 @@
+create_dict-01 ...... passed
+create_dict-02 ...... passed
+create_dict-03 ...... passed
+create_dict-04 ...... passed
+create_dict-05 ...... passed
+create_dict-06 ...... passed
+create_dict-07 ...... passed
+create_dict-08 ...... passed
+is_dict_empty-01 ...... passed
+
+All tests for init passed!
